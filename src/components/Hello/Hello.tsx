@@ -1,5 +1,6 @@
 import * as React from 'react';
-import * as Styles from './Hello.module.scss';
+// import * as Styles from './Hello.module.scss';
+import * as Styles from './Hello.module.sass';
 
 interface HelloProps {    
     name: string;
