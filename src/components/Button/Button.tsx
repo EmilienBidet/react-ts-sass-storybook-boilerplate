@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './Button.scss';
+import './Button.sass';
 
 export interface ButtonProps {
 

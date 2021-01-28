@@ -6,6 +6,11 @@ module.exports = function({ config }) {
     test: /\.scss$/,
     loaders: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
     include: path.resolve(__dirname, '../')
+  },
+  {
+    test: /\.sass$/,
+    loaders: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+    include: path.resolve(__dirname, '../')
   });
 
   config.plugins.push(new MiniCssExtractPlugin({ filename: '[name].css' }))
